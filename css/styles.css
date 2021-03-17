@@ -161,7 +161,7 @@ ul{
 }
 /* Section */
 .section{
-  padding: 92px;
+  padding: 94px 0px;
   overflow-x:hidden;
 }
 /* Features */
@@ -346,7 +346,7 @@ ul{
 }
 .filter {
   color: var(--title-text-color);
-  margin: 2px 4px;
+  margin: 0px 4px;
   border-radius: 4px;
 }
 .filter-button {
@@ -391,7 +391,7 @@ ul{
 }
 .portfolio_list {
   border: 1px solid #EEEEEE;
-  margin: 20px 20px 2px 20px;
+  margin: 20px 20px 0px 20px;
 }
 .portfolio-list_link {
   color: var(--title-text-color);

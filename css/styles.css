@@ -7,9 +7,15 @@
   --additional-background-colour: #f5f4fa;
 }
 
-.container {
-  width: 1200px;
+body{
+  
+  color: var(--titel-text-color); 
+  font-family: 'railway';
 }
+/* .container {
+  width: 1600px;
+  margin: auto;
+} */
 ul{
   list-style: none;
 }
@@ -24,7 +30,7 @@ ul{
   background-color: var(--primary-white-color);
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: start;
   width: 700px;
 }
 .logo-blue {
@@ -102,9 +108,7 @@ ul{
 }
 
 /* Main content */
-/* .section{
-  padding: 94px;
-} */
+
 /* Hero */
 
 .hero-content {
@@ -122,7 +126,7 @@ ul{
   font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.5em;
+  line-height: 1.36;
   /* or 136% */
 
   text-align: center;
@@ -136,7 +140,7 @@ ul{
   font-weight: bold;
   font-size: 16px;
   padding: 18px;
-  line-height: 1em;
+  line-height: 1.87;
   width: 200px;
   left: 700px;
   top: 430px;
@@ -150,16 +154,20 @@ ul{
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  border-radius: 4px;
 }
 /* Section */
-
+.section{
+  padding: 76px;
+  overflow-x:hidden;
+}
 /* Features */
 
 .features-section{
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  flex-direction: column;
+    align-items: center;
 }
 
 .features {
@@ -176,7 +184,7 @@ ul{
   font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
-  line-height: 0.53em;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -187,7 +195,7 @@ ul{
   width: 270px;
   font-family: Roboto;
   font-size: 14px;
-  line-height: 1.7em;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -197,10 +205,10 @@ ul{
 
 /* Our stack */
 
-.stack-title {
+.section-title {
   font-family: Roboto;
   font-size: 36px;
-  line-height: 1.4em;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -226,10 +234,10 @@ ul{
   background-color: var(--additional-background-colour);
 }
 
-.team-main_title {
+.section-title {
   font-family: Roboto;
   font-size: 36px;
-  line-height: 1.4em;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -305,7 +313,7 @@ ul{
 .footer-text {
   font-family: Roboto;
   font-size: 14px;
-  line-height: 0.8em;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -316,7 +324,7 @@ ul{
   font-family: Roboto;
   font-style: normal;
   font-size: 14px;
-  line-height: 0.8em;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   text-decoration-line: none;
@@ -326,16 +334,13 @@ ul{
 /* Portfolio main content */
 
 .stack-filter {
-  margin: 0 auto;
-  padding: 50px 10px;
-  width: 730px;
- justify-content: space-around;
-  display: flex;
-  align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .filter {
   color: var(--title-text-color);
-  margin: 2px 5px;
+  margin: 2px 4px;
   border-radius: 4px;
 }
 .filter-button {
@@ -380,7 +385,7 @@ ul{
 }
 .portfolio_list {
   border: 1px solid #EEEEEE;
-  margin: 20px;
+  margin: 20px 20px 18px 20px;
 }
 .portfolio-list_link {
   color: var(--title-text-color);

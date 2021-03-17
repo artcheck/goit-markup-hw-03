@@ -161,7 +161,7 @@ ul{
 }
 /* Section */
 .section{
-  padding: 76px;
+  padding: 92px;
   overflow-x:hidden;
 }
 /* Features */
@@ -391,7 +391,7 @@ ul{
 }
 .portfolio_list {
   border: 1px solid #EEEEEE;
-  margin: 20px 20px 18px 20px;
+  margin: 20px 20px 2px 20px;
 }
 .portfolio-list_link {
   color: var(--title-text-color);
@@ -404,7 +404,7 @@ ul{
   font-style: normal;
   font-weight: bold;
   color: #212121;
-  padding-left: 20px;
+  padding: 20px;
 }
 .portfolio-list_text {
   font-family: roboto;
@@ -413,5 +413,5 @@ ul{
   font-weight: normal;
   letter-spacing: 0.03em;
   color: var(--aditional-text-color);
-  padding-left: 20px;
+  padding: 0px 20px 20px 20px;
 }

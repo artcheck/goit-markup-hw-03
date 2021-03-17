@@ -6,22 +6,21 @@
   --primary-white-color: #ffffff;
   --additional-background-colour: #f5f4fa;
 }
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-
-body{
+body {
   margin: 0;
-  color: var(--titel-text-color); 
-  font-family: 'railway';
+  color: var(--titel-text-color);
+  font-family: "railway";
 }
 /* .container {
   width: 1600px;
   margin: auto;
 } */
-ul{
+ul {
   list-style: none;
 }
 .header {
@@ -50,12 +49,10 @@ ul{
   font-weight: bold;
   font-family: "raleway";
   letter-spacing: 0.03em;
- 
 }
 .nav-list {
   width: 280px;
   justify-content: space-around;
-  
   display: flex;
   align-items: center;
 }
@@ -79,7 +76,7 @@ ul{
   width: 77px;
   text-decoration-line: none;
 }
-.active-page{
+.active-page {
   font-family: roboto;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -103,7 +100,6 @@ ul{
 
 .contact-list {
   width: 350px;
-
   display: flex;
   justify-content: space-evenly;
   color: var(--title-text-color);
@@ -131,7 +127,6 @@ ul{
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
   padding: 30px;
   text-align: center;
   letter-spacing: 0.06em;
@@ -144,41 +139,31 @@ ul{
   font-weight: bold;
   font-size: 16px;
   padding: 18px;
-  line-height: 1.87;
+  border: 0;
   width: 200px;
-  left: 700px;
-  top: 430px;
   cursor: pointer;
-
   background: var(--accent-color);
-  /* identical to box height, or 187% */
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 /* Section */
-.section{
+.section {
   padding: 94px 0px;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 /* Features */
 
-.features-section{
+.features-section {
   display: flex;
   justify-content: center;
   padding-top: 50px;
   flex-direction: column;
-    align-items: center;
+  align-items: center;
 }
 
 .features {
   display: flex;
   font-family: Roboto;
 }
-
 
 .features-list {
   padding: 0px 12px;
@@ -192,7 +177,6 @@ ul{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding: 13px 0px;
-
   color: var(--title-text-color);
 }
 
@@ -201,10 +185,7 @@ ul{
   font-family: Roboto;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: var(--title-text-color);
 }
 
@@ -217,7 +198,6 @@ ul{
   text-align: center;
   letter-spacing: 0.03em;
   padding: 40px;
-
   color: var(--title-text-color);
 }
 
@@ -246,12 +226,10 @@ ul{
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--title--ext-color);
 }
 .team {
   justify-content: center;
- 
   display: flex;
 }
 
@@ -262,7 +240,7 @@ ul{
   background-color: var(--primary-white-color);
   text-align: center;
   width: 270px;
-  padding:  0px 0px 15px 0px;
+  padding: 0px 0px 15px 0px;
   box-shadow: 1px 2px 1px lightgray;
 }
 .team-member_title {
@@ -291,20 +269,18 @@ ul{
   justify-content: space-around;
   background-color: var(--primary-bacground-color);
 }
-.footer-logo{
+.footer-logo {
   padding: 20px 10px;
   font-style: normal;
-  
 }
-.footer-list{
+.footer-list {
   padding: 7px;
-
   font-style: normal;
 }
 .footer-style {
   padding: 30px 0px;
 }
-.footer-address{
+.footer-address {
   font-style: italic;
 }
 
@@ -313,7 +289,6 @@ ul{
   font-weight: bold;
   font-family: "raleway";
   letter-spacing: 0.03em;
-  
   color: #ffffff;
 }
 .footer-text {
@@ -340,9 +315,9 @@ ul{
 /* Portfolio main content */
 
 .stack-filter {
-    justify-content: center;
-    display: flex;
-    align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 .filter {
   color: var(--title-text-color);
@@ -357,10 +332,6 @@ ul{
   border-radius: 4px;
   border-style: none;
   padding: 10px 25px;
- 
-
-  /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
@@ -371,7 +342,7 @@ ul{
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.active-filter{
+.active-filter {
   background-color: var(--accent-color);
   font-family: "Roboto";
   color: var(--primary-white-color);
@@ -380,17 +351,16 @@ ul{
   border-radius: 4px;
   border-style: none;
   padding: 10px 25px;
-  }
+}
 .stack-portfolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- 
   width: 1360px;
   margin: 0 auto;
 }
 .portfolio_list {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   margin: 20px 20px 0px 20px;
 }
 .portfolio-list_link {

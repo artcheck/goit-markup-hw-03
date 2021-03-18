@@ -30,7 +30,7 @@ ul {
 .head-container{
   display: flex;
   padding: 30px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   border-bottom: 1px solid #f3f3f3;
 }
 .nav {

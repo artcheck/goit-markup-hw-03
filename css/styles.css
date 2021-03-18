@@ -379,6 +379,7 @@ ul {
 .portfolio_list {
   border: 1px solid #eeeeee;
   margin: 30px 15px 0px 15px;
+  border-bottom: 1px solid #c7c7c7;
 }
 .portfolio-list_link {
   color: var(--title-text-color);

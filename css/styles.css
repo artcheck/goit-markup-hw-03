@@ -335,7 +335,7 @@ ul {
   justify-content: center;
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .filter {
   color: var(--title-text-color);
@@ -378,7 +378,7 @@ ul {
 }
 .portfolio_list {
   border: 1px solid #eeeeee;
-  margin: 20px 15px 0px 15px;
+  margin: 30px 15px 0px 15px;
 }
 .portfolio-list_link {
   color: var(--title-text-color);

@@ -6,6 +6,7 @@
   --primary-white-color: #ffffff;
   --additional-background-colour: #f5f4fa;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -16,23 +17,27 @@ body {
   color: var(--titel-text-color);
   font-family: "railway";
 }
+
 .container {
   width: 1200px;
   margin: 0 auto;
 }
+
 ul {
   list-style: none;
 }
+
 .header {
   margin: 0 auto;
-  
 }
-.head-container{
+
+.head-container {
   display: flex;
   padding: 30px;
   justify-content: space-evenly;
   border-bottom: 1px solid #f3f3f3;
 }
+
 .nav {
   background-color: var(--primary-white-color);
   display: flex;
@@ -40,12 +45,15 @@ ul {
   justify-content: space-evenly;
   width: 700px;
 }
+
 .logo-blue {
   color: var(--accent-color);
 }
+
 .logo-black {
   color: var(--title-text-color);
 }
+
 .logo-blue,
 .logo-black {
   font-size: 26px;
@@ -53,12 +61,14 @@ ul {
   font-family: "raleway";
   letter-spacing: 0.03em;
 }
+
 .nav-list {
   width: 280px;
   justify-content: space-around;
   display: flex;
   align-items: center;
 }
+
 .logo-link,
 .cont-link {
   font-family: roboto;
@@ -70,6 +80,7 @@ ul {
   list-style: none;
   text-decoration-line: none;
 }
+
 .nav-link {
   font-family: roboto;
   letter-spacing: 0.02em;
@@ -79,6 +90,7 @@ ul {
   width: 77px;
   text-decoration-line: none;
 }
+
 .active-page {
   font-family: roboto;
   letter-spacing: 0.02em;
@@ -88,6 +100,7 @@ ul {
   text-decoration-line: none;
   color: var(--accent-color);
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active,
@@ -112,7 +125,6 @@ ul {
 
 /* Main content */
 
-
 /* Section */
 
 .section {
@@ -122,11 +134,11 @@ ul {
 
 /* Hero */
 
-.hero-section{
+.hero-section {
   padding: 0px 0px;
 }
 
-.hero-container{
+.hero-container {
   margin: 0 auto;
   padding: 150px;
   display: flex;
@@ -154,6 +166,7 @@ ul {
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
+
 .hero-button {
   color: var(--primary-white-color);
   font-family: Roboto;
@@ -166,7 +179,6 @@ ul {
   background: var(--accent-color);
   letter-spacing: 0.06em;
 }
-
 
 /* Features */
 
@@ -204,7 +216,7 @@ ul {
 }
 
 /* Our stack */
-.section-our_stack{
+.section-our_stack {
   padding-top: 0px;
 }
 
@@ -220,9 +232,8 @@ ul {
 
 .stack {
   justify-content: center;
-  
+
   display: flex;
-  
 }
 
 .stack-list {
@@ -231,10 +242,9 @@ ul {
 
 /* Our team */
 
-.team-section{
+.team-section {
   background-color: var(--additional-background-colour);
 }
-
 
 .section-title {
   font-family: Roboto;
@@ -244,6 +254,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--title--ext-color);
 }
+
 .team {
   justify-content: center;
   display: flex;
@@ -252,6 +263,7 @@ ul {
 .team-list {
   padding: 0px 15px;
 }
+
 .team-styles {
   background-color: var(--primary-white-color);
   text-align: center;
@@ -259,6 +271,7 @@ ul {
   padding: 0px 0px 15px 0px;
   box-shadow: 1px 2px 1px lightgray;
 }
+
 .team-member_title {
   margin: 20px 0px 10px 0px;
   font-family: roboto;
@@ -267,6 +280,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .team-member_description {
   font-family: roboto;
   font-size: 15px;
@@ -278,20 +292,23 @@ ul {
 /* Footer */
 
 .footer {
-  
   background-color: var(--primary-bacground-color);
 }
+
 .footer-logo {
   padding: 20px 10px;
   font-style: normal;
 }
+
 .footer-list {
   padding: 7px;
   font-style: normal;
 }
+
 .footer-style {
   padding: 30px 0px;
 }
+
 .footer-address {
   font-style: italic;
 }
@@ -303,6 +320,7 @@ ul {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 .footer-text {
   font-family: Roboto;
   font-size: 14px;
@@ -313,6 +331,7 @@ ul {
   text-decoration-line: none;
   margin-bottom: 20px;
 }
+
 .footer-cont {
   font-family: Roboto;
   font-style: normal;
@@ -326,9 +345,9 @@ ul {
 
 /* Portfolio main content */
 
-.portfolio-main{
+.portfolio-main {
   width: 1170px;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .stack-filter {
@@ -337,11 +356,13 @@ ul {
   align-items: center;
   margin-bottom: 20px;
 }
+
 .filter {
   color: var(--title-text-color);
   margin: 0px 4px;
   border-radius: 4px;
 }
+
 .filter-button {
   background-color: var(--additional-background-colour);
   font-family: "Roboto";
@@ -360,6 +381,7 @@ ul {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+
 .active-filter {
   background-color: var(--accent-color);
   font-family: "Roboto";
@@ -370,21 +392,26 @@ ul {
   border-style: none;
   padding: 10px 25px;
 }
+
 .stack-portfolio {
   display: flex;
   flex-wrap: wrap;
   width: 1360px;
   margin: 0 auto;
 }
+
 .portfolio_list {
-  border: 1px solid #eeeeee;
   margin: 30px 15px 0px 15px;
-  border-bottom: 1px solid #c7c7c7;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
+
 .portfolio-list_link {
   color: var(--title-text-color);
   text-decoration-line: none;
 }
+
 .portfolio-list_title {
   font-family: roboto;
   letter-spacing: 0.06em;
@@ -394,6 +421,7 @@ ul {
   color: #212121;
   padding: 20px;
 }
+
 .portfolio-list_text {
   font-family: roboto;
   font-style: normal;

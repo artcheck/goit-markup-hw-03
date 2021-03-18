@@ -326,6 +326,11 @@ ul {
 
 /* Portfolio main content */
 
+.portfolio-main{
+  width: 1170px;
+    margin: 0 auto;
+}
+
 .stack-filter {
   justify-content: center;
   display: flex;
@@ -368,7 +373,6 @@ ul {
 .stack-portfolio {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   width: 1360px;
   margin: 0 auto;
 }

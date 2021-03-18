@@ -17,28 +17,31 @@
 
 <body style="font-family: railway">
   <!--Header-->
-  <header class="header">
-    <nav class="nav">
-      <a class="logo-link" href="./index.html">
-        <span class="logo-blue">Web</span><span class="logo-black">Studio</span>
-      </a>
-
-      <ul class="nav-list">
-        <li><a class="nav-link" href="./index.html">Студия</a></li>
-        <li><a class="nav-link, active-page" href="./portfolio.html">Портфолио</a></li>
-        <li><a class="nav-link" href="./contacts.html">Контакты</a></li>
+  <header >
+    <div class="head-container ">
+      <nav class="nav">
+        <a class="logo-link" href="./index.html">
+          <span class="logo-blue">Web</span><span class="logo-black">Studio</span>
+        </a>
+  
+        <ul class="nav-list">
+          <li>
+            <a class="nav-link, active-page" href="./index.html">Студия</a>
+          </li>
+          <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="nav-link" href="./contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+      <ul class="contact-list">
+        <li>
+          <a class="cont-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a class="cont-link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
-    </nav>
-    <ul class="contact-list">
-      <li>
-        <address><a class="cont-link" href="mailto:info@devstudio.com">info@devstudio.com</a></address>
-
-      </li>
-      <li>
-        <a class="cont-link" href="tel:+380961111111">+38 096 111 11 11</a>
-      </li>
-    </ul>
-
+    </div>
+    
   </header>
 
   <!--Main content-->
@@ -46,8 +49,9 @@
   <main>
     
     
-    <section class="section">
-      <h1 hidden="Наши проекти"></h1>
+  <section class="section">
+    <div class="container">
+        <h1 hidden="Наши проекти"></h1>
       <ul class="stack-filter">
         <li class="filter">
           <button class="filter-button, active-filter" type="button">Все</button>
@@ -65,6 +69,8 @@
           <button class="filter-button" type="button">Маркетинг</button>
         </li>
       </ul>
+      
+      
       <ul class="stack-portfolio">
         <li class="portfolio_list">
           <a class="portfolio-list_link" href=""><img src="./images/technocrack.jpg" alt="Технокряк" />
@@ -124,30 +130,32 @@
           </a>
         </li>
       </ul>
+    </div>
     </section>
   </main>
 
   <!--Footer-->
   <footer class="footer">
-    <address class="footer-style">
-      <ul>
-        <li class="footer-list">
-          <a class="nav-link" href="./index.html"><span class="logo-blue">Web</span><span
-              class="logo-white">Studio</span></a>
-        </li>
-        <li class="footer-list">
-          <a class="footer-text footer-address" href="https://goo.gl/maps/SziK4C3QuLESikPa7" target="_blank">г. Киев,
-            пр-т Леси Украинки, 26</a><br>
-
-        </li>
-        <li class="footer-list">
-          <a class="footer-cont" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="footer-list">
-          <a class="footer-cont" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </address>
+    <div class="container">
+      <address class="footer-style">
+        <ul>
+          <li class="footer-logo">
+            <a class="nav-link" href="./index.html"><span class="logo-blue">Web</span><span
+                class="logo-white">Studio</span></a>
+          </li>
+          <li class="footer-list">
+            <a class="footer-text footer-address" href="https://goo.gl/maps/SziK4C3QuLESikPa7" target="_blank">г. Киев,
+              пр-т Леси Украинки, 26</a><br />
+          </li>
+          <li class="footer-list">
+            <a class="footer-cont" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="footer-list">
+            <a class="footer-cont" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </address>
+    </div>
   </footer>
 </body>
 

@@ -13,6 +13,9 @@ body {
   overflow-x: hidden;
   margin: 0 auto;
 }
+.container {
+  width: 1158px;
+}
 ul {
   list-style: none;
 }
@@ -96,7 +99,7 @@ ul {
 .contact-list {
   width: 350px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
